@@ -1,3 +1,8 @@
+# Sistema de deteccion de fraude en transacciones con 98% de AUC ROC
+<img width="731" height="346" alt="image" src="https://github.com/user-attachments/assets/f67c5f12-8372-4fbe-87e9-d2549e6320ed" />
+
+
+
 ## Instalación
 
 1. Clona el repositorio y entra en la carpeta del proyecto:

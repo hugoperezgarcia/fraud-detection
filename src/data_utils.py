@@ -21,7 +21,7 @@ def split_data(df: pd.DataFrame):
         random_state=RANDOM_STATE
     )
 
-    return train_df, test_df, valid_df
+    return train_df, valid_df, test_df
 
 def fit_preprocess(train_df: pd.DataFrame):
     scaler = StandardScaler()

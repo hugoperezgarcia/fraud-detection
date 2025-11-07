@@ -13,7 +13,7 @@ def train(train_df, valid_df):
     y_valid = valid_df[TARGET]
 
     #ajustamos el weight para el desbalanceo
-    scale_pos_weight = (len(y_train) - y_train.sum() / y_train.sum())
+    scale_pos_weight = (len(y_train) - y_train.sum()) / y_train.sum()
 
     dtrain = xgb.DMatrix(x_train, label=y_train)
     dvalid = xgb.DMatrix(x_valid, label=y_valid)
